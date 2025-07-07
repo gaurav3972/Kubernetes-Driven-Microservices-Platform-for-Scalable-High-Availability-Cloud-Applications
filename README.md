@@ -49,9 +49,9 @@
 | Service           | HPA Configured | Min Replicas | Max Replicas | Target CPU Utilization |
 | ----------------- | -------------- | ------------ | ------------ | ---------------------- |
 | `product-service` | ✅ Yes          | 2            | 5            | 50%                    |
-![](https://github.com/gaurav3972/Kubernetes-Driven-Microservices-Platform-for-Scalable-High-Availability-Cloud-Applications/blob/main/images/Screenshot%202025-07-06%20163437.png)
-> The autoscaler will increase the number of pods based on CPU load.
 
+> The autoscaler will increase the number of pods based on CPU load.
+![](https://github.com/gaurav3972/Kubernetes-Driven-Microservices-Platform-for-Scalable-High-Availability-Cloud-Applications/blob/main/images/Screenshot%202025-07-06%20163437.png)
 ---
 
 ### 🔹 **Storage & Data Persistence**
