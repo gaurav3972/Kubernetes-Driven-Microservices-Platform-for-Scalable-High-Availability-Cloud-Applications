@@ -17,7 +17,7 @@
 - Metrics Server (for autoscaling)
 - Load testing tools: `hey`, `ab`, or `curl`
 ---
-![](https://github.com/gaurav3972/Kubernetes-Driven-Microservices-Platform-for-Scalable-High-Availability-Cloud-Applications/blob/main/images/000.0..png)
+
 ## 🧩 Deployment Architecture & Setup Summary
 
 ### 🔹 **Environment Setup**
