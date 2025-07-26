@@ -332,6 +332,5 @@ Here is your **project summary in paragraph form** along with a ✅ **Validation
 
 ---
 
-### 📝 **Project Summary**
-
+  ### 📝 **Project Summary**
 The project titled **“Kubernetes-Driven Microservices Platform for Scalable High-Availability Cloud Applications”** focuses on deploying and managing a set of containerized microservices in a cloud-native environment using Kubernetes. It includes three primary services—`user-service`, `product-service`, and `order-service`—each built using Node.js or Python and containerized using Docker. These services are deployed into a Kubernetes cluster (either locally with Minikube or in the cloud via EKS), with each service running as a separate deployment and exposed externally using NodePort services. The `product-service` includes Horizontal Pod Autoscaler (HPA) configuration to automatically scale the number of pods based on CPU utilization, allowing it to grow from 2 to 5 replicas under load. Persistent data storage is handled by binding a Persistent Volume (PV) and Persistent Volume Claim (PVC) to the `order-service`, ensuring data survives restarts and rescheduling. All services and configurations are managed through Kubernetes manifests using `kubectl`. The project ensures scalable, resilient, and persistent application delivery with proper service discovery, load balancing, autoscaling, and volume management features built-in.
