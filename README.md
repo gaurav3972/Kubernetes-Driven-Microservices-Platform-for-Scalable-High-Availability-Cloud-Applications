@@ -313,3 +313,25 @@ kubectl apply -f k8s-manifests/pvc.yaml
 ![](https://github.com/gaurav3972/Kubernetes-Driven-Microservices-Platform-for-Scalable-High-Availability-Cloud-Applications/blob/main/images/Screenshot%202025-07-06%20163900.png)
 ![](https://github.com/gaurav3972/Kubernetes-Driven-Microservices-Platform-for-Scalable-High-Availability-Cloud-Applications/blob/main/images/Screenshot%202025-07-06%20163928.png)
 ![](https://github.com/gaurav3972/Kubernetes-Driven-Microservices-Platform-for-Scalable-High-Availability-Cloud-Applications/blob/main/images/Screenshot%202025-07-06%20163943.png)
+Here is your **project summary in paragraph form** along with a ✅ **Validation Checklist**:
+
+---
+
+### ✅ **Validation Checklist**
+
+* [x] Microservices are containerized and pushed to Docker Hub
+* [x] Kubernetes cluster is up and running (Minikube or EKS)
+* [x] Deployments for `user`, `product`, and `order` services are applied
+* [x] NodePort services are configured for external access
+* [x] Horizontal Pod Autoscaler (HPA) is set up for `product-service`
+* [x] Load testing using `hey` confirms autoscaling functionality
+* [x] Persistent Volume and PVC are bound to `order-service`
+* [x] Data remains intact after pod restarts or rescheduling
+* [x] All manifests are correctly applied using `kubectl apply -f`
+* [x] Each service is accessible via `minikube service <service-name>`
+
+---
+
+### 📝 **Project Summary**
+
+The project titled **“Kubernetes-Driven Microservices Platform for Scalable High-Availability Cloud Applications”** focuses on deploying and managing a set of containerized microservices in a cloud-native environment using Kubernetes. It includes three primary services—`user-service`, `product-service`, and `order-service`—each built using Node.js or Python and containerized using Docker. These services are deployed into a Kubernetes cluster (either locally with Minikube or in the cloud via EKS), with each service running as a separate deployment and exposed externally using NodePort services. The `product-service` includes Horizontal Pod Autoscaler (HPA) configuration to automatically scale the number of pods based on CPU utilization, allowing it to grow from 2 to 5 replicas under load. Persistent data storage is handled by binding a Persistent Volume (PV) and Persistent Volume Claim (PVC) to the `order-service`, ensuring data survives restarts and rescheduling. All services and configurations are managed through Kubernetes manifests using `kubectl`. The project ensures scalable, resilient, and persistent application delivery with proper service discovery, load balancing, autoscaling, and volume management features built-in.
